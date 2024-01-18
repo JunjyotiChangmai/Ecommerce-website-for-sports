@@ -18,7 +18,7 @@
 }
 
 .container .logo {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -33,9 +33,11 @@
 .container ul {
     display: flex;
     align-items: center;
-    font-size: 17px;
+    font-size: 19px;
+    font-weight: 600;
     gap: 2rem;
-    width: 70%;
+    width: 72%;
+    color: black;
 }
 
 .container ul li {
@@ -51,7 +53,7 @@
     margin-top: 4px;
 }
 .container .login-btn {
-    width: 15%;
+    width: 20%;
     height: 5vh;
     display: flex;
     align-items: center;
@@ -62,6 +64,7 @@
     font-weight: 600;
     color: rgb(38, 36, 36);
     background-color: rgb(205, 227, 247);
+    font-size: 19px;
 }
 
 .container .login-btn:active {
@@ -69,8 +72,7 @@
 }
 
 .container .link-section .cartIcon {
-    margin-right: 1rem;
-    width: 10%;
+    width: 6%;
     display: flex;
     align-items: center;
     justify-content: center;

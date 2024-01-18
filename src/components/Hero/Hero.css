@@ -1,8 +1,29 @@
 
 .hero {
     width: 100%;
-    height: 60dvw;
+    height: 57dvw;
     background-image: url('../Assets/hero_img.png');
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.hero .hero-text {
+    /* border: 2px solid crimson; */
+    height: 30vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 5.5rem;
+}
+
+.hero .hero-text .message {
+    font-size: 2.4vw;
+}
+
+.hero .hero-text .message h2 {
+    font-size: 2vw;
 }
