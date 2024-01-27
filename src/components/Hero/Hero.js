@@ -1,6 +1,5 @@
 import React from 'react'
 import './Hero.css'
-// import hero_img from '../Assets/hero_img.png'
 
 const Hero = () => {
   return (

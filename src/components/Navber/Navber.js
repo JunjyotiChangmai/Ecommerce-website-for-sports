@@ -21,7 +21,7 @@ const Navber = () => {
                     </ul>
                     <div className="login-btn"> <Link style={{ textDecoration: 'none' }} to='/loginSignUp'>login</Link></div>
 
-                    <div className="cartIcon"><i className="fa-solid fa-cart-shopping"></i></div>
+                    <div className="cartIcon"><Link to={'/cart'}><i className="fa-solid fa-cart-shopping"></i></Link></div>
                 </div>
             </div>
         </div>
